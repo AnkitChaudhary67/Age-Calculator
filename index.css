@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: blueviolet;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: beige;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    margin: 200px 500px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px;
+}
+.header{
+    background-color: aquamarine;
+    color: blueviolet;
+    border-radius: 10px;
+}
+.main{
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    flex-direction:row;
+    margin: 10px 20px;
+}
+input{
+    width: 150px;
+    height: 40px;
+    padding: 20px;
+    margin-top: 10px;
+}
+label{
+    font-size: larger;
+}
+.error{
+    display: none;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: blue;
+    color: aliceblue;
+}
+#age{
+    margin-top: 50px;
+    color: darkblue;
+    font-size: xx-large;
+}
